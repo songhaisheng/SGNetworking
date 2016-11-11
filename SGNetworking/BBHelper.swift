@@ -22,11 +22,11 @@ struct BBHelper {
             return "1.3.0";
         }
     }
-    static let kHostName:String = "http://.com"
+    static let kHostName:String = "http://bobo.yimwing.com"
     static let kAppCacheFilePath:String = NSSearchPathForDirectoriesInDomains(.cachesDirectory, .userDomainMask, true)[0];
     static let kHTTPUpdateSwitch:String = "/shop/config/get_iosupdate";
     static let kSuccessField:String = "code";
     static let kSuccessCode:Int = 1;
     static let kMsgField:String = "message";
-    static let kPic: String = ""
+    static let kPic: String = "/task/taskactivityapi/get_activity_list"
 }

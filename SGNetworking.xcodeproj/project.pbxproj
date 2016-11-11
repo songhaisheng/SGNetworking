@@ -41,6 +41,8 @@
 		C3B88A381DC87A4300B0FD10 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B88A341DC87A4300B0FD10 /* Reachability.m */; };
 		C3B88A3E1DC89FEC00B0FD10 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B88A3D1DC89FEC00B0FD10 /* StringExtension.swift */; };
 		C3B88A401DC8A0B800B0FD10 /* SGNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B88A3F1DC8A0B800B0FD10 /* SGNetworking.swift */; };
+		C3C661E31DD5C3A500E7EE37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3C661E11DD5C3A500E7EE37 /* Main.storyboard */; };
+		C3C661E51DD5CFF700E7EE37 /* ActivityEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C661E41DD5CFF700E7EE37 /* ActivityEntity.swift */; };
 		C3FD42751DCB23F800FEBAAD /* PicExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FD42741DCB23F800FEBAAD /* PicExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +91,8 @@
 		C3B88A3C1DC89E5000B0FD10 /* SGNetworking-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SGNetworking-Bridging-Header.h"; sourceTree = "<group>"; };
 		C3B88A3D1DC89FEC00B0FD10 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		C3B88A3F1DC8A0B800B0FD10 /* SGNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGNetworking.swift; sourceTree = "<group>"; };
+		C3C661E21DD5C3A500E7EE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3C661E41DD5CFF700E7EE37 /* ActivityEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityEntity.swift; sourceTree = "<group>"; };
 		C3FD42741DCB23F800FEBAAD /* PicExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,9 +137,11 @@
 				C3B88A281DC8374200B0FD10 /* ApplicationExtensions.swift */,
 				C3B88A3D1DC89FEC00B0FD10 /* StringExtension.swift */,
 				C3FD42741DCB23F800FEBAAD /* PicExtension.swift */,
+				C3C661E41DD5CFF700E7EE37 /* ActivityEntity.swift */,
 				C3B88A3C1DC89E5000B0FD10 /* SGNetworking-Bridging-Header.h */,
 				C307A00F1DC7188800F55E63 /* Assets.xcassets */,
 				C307A0111DC7188800F55E63 /* LaunchScreen.storyboard */,
+				C3C661E11DD5C3A500E7EE37 /* Main.storyboard */,
 				C307A0141DC7188800F55E63 /* Info.plist */,
 			);
 			path = SGNetworking;
@@ -284,6 +290,7 @@
 				C307A0101DC7188800F55E63 /* Assets.xcassets in Resources */,
 				C3B88A0D1DC8369100B0FD10 /* Info-tvOS.plist in Resources */,
 				C3B88A0E1DC8369100B0FD10 /* Info.plist in Resources */,
+				C3C661E31DD5C3A500E7EE37 /* Main.storyboard in Resources */,
 				C3B88A251DC836B100B0FD10 /* Info-tvOS.plist in Resources */,
 				C3B88A241DC836B100B0FD10 /* Info-OSX.plist in Resources */,
 			);
@@ -297,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3B88A101DC8369100B0FD10 /* Notifications.swift in Sources */,
+				C3C661E51DD5CFF700E7EE37 /* ActivityEntity.swift in Sources */,
 				C3B88A121DC8369100B0FD10 /* Request.swift in Sources */,
 				C3B88A191DC8369100B0FD10 /* TaskDelegate.swift in Sources */,
 				C3B88A271DC836B100B0FD10 /* SwiftyJSON.swift in Sources */,
@@ -335,6 +343,14 @@
 				C307A0121DC7188800F55E63 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C3C661E11DD5C3A500E7EE37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3C661E21DD5C3A500E7EE37 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
